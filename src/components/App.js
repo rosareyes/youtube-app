@@ -3,7 +3,6 @@ import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 import useVideos from '../hooks/useVideos';
-console.log(process.env.REACT_APP_API_KEY)
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [videos, search] = useVideos('buildings');
